@@ -39,7 +39,7 @@ Here are the key components of the project:
 ---
 
 ## UI card
-![Alt text](images/chat bot.png)
+![chat bot](images/chat bot.png)
 
 ## Installation
 
@@ -68,7 +68,7 @@ Here are the key components of the project:
    python RSS_NEWS_FEED/data_scrapping.py
    ```
 
-5. **Install dependencies**
+5. **Local Development**
 
    ```bash
    Streamlit run streamlitapp.py 
