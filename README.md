@@ -39,7 +39,7 @@ Here are the key components of the project:
 ---
 
 ## UI card
-![chat bot](images/chat bot.png)
+![chat bot](images/chat_bot.png)
 
 ## Installation
 
