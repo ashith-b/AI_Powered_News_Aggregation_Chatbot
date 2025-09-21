@@ -22,7 +22,7 @@ def init_app():
             try:
                 init_vector_store()
                 st.session_state.vector_store_initialized = True
-                logger.info("✅ FAISS vector store initialized successfully.")
+                logger.info("FAISS vector store initialized successfully.")
             except Exception as e:
                 logger.error(f"FAISS vector store initialization failed: {e}")
                 st.error("Failed to initialize FAISS vector store.")
@@ -76,10 +76,10 @@ def process_news_section():
                     st.session_state.processed = True
 
                     elapsed = time.time() - start_time
-                    st.success(f"✅ News processed in {elapsed:.2f} seconds")
+                    st.success(f"News processed in {elapsed:.2f} seconds")
                 except Exception as e:
                     logger.error(f"Auto-processing error: {str(e)}")
-                    st.error(f"❌ Failed to process news: {str(e)}")
+                    st.error(f"Failed to process news: {str(e)}")
         else:
             st.info("ℹ️ Classified articles file already exists. Skipping auto-processing.")
 
